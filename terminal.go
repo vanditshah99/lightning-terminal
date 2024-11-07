@@ -82,6 +82,7 @@ const (
 
 	defaultServerTimeout  = 10 * time.Second
 	defaultConnectTimeout = 15 * time.Second
+	defaultRPCTimeout     = 1 * time.Minute
 	defaultStartupTimeout = 5 * time.Second
 )
 
@@ -904,6 +905,7 @@ func (g *LightningTerminal) setUpLNDClients(lndQuit chan struct{}) error {
 				CallerCtx:             ctxc,
 				CheckVersion:          minimalCompatibleVersion,
 				ChainSyncPollInterval: g.cfg.LndConnectInterval,
+				RPCTimeout:            g.cfg.LndRPCTimeout,
 			},
 		)
 		if err == nil {
