@@ -5,7 +5,7 @@ require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.4
 	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
-	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
+	github.com/btcsuite/btclog v0.0.0-20241003133417-09c4e92e319c
 	github.com/btcsuite/btcwallet/walletdb v1.4.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-errors/errors v1.0.1
@@ -16,26 +16,26 @@ require (
 	github.com/lightninglabs/lightning-node-connect v0.3.2-alpha.0.20240822142323-ee4e7ff52f83
 	github.com/lightninglabs/lightning-terminal/autopilotserverrpc v0.0.1
 	github.com/lightninglabs/lightning-terminal/litrpc v1.0.0
-	github.com/lightninglabs/lndclient v0.18.4-0
+	github.com/lightninglabs/lndclient v0.18.4-3
 	github.com/lightninglabs/loop v0.28.8-beta.0.20241022072406-1e8ae31ddc27
 	github.com/lightninglabs/loop/looprpc v1.0.0
 	github.com/lightninglabs/loop/swapserverrpc v1.0.10
 	github.com/lightninglabs/pool v0.6.5-beta.0.20241015105339-044cb451b5df
 	github.com/lightninglabs/pool/auctioneerrpc v1.1.2
 	github.com/lightninglabs/pool/poolrpc v1.0.0
-	github.com/lightninglabs/taproot-assets v0.4.2-0.20241022143621-54f007d7cfc3
-	github.com/lightningnetwork/lnd v0.18.3-beta.rc3.0.20241021112623-6f0d7f9a87d3
+	github.com/lightningnetwork/lnd v0.18.3-beta.rc3.0.20241025090009-615f3d633e61
 	github.com/lightningnetwork/lnd/cert v1.2.2
-	github.com/lightningnetwork/lnd/fn v1.2.1
-	github.com/lightningnetwork/lnd/kvdb v1.4.10
+	github.com/lightningnetwork/lnd/fn v1.2.3
+	github.com/lightningnetwork/lnd/kvdb v1.4.11
 	github.com/lightningnetwork/lnd/tlv v1.2.6
-	github.com/lightningnetwork/lnd/tor v1.1.2
+	github.com/lightningnetwork/lnd/tor v1.1.4
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
 	github.com/mwitkow/grpc-proxy v0.0.0-20230212185441-f345521cb9c9
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli v1.22.9
 	go.etcd.io/bbolt v1.3.11
 	golang.org/x/crypto v0.25.0
+	golang.org/x/exp v0.0.0-20240325151524-a685a6edb6d8
 	golang.org/x/net v0.27.0
 	golang.org/x/sync v0.8.0
 	google.golang.org/grpc v1.65.0
@@ -57,6 +57,7 @@ require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcutil/psbt v1.1.8 // indirect
+	github.com/btcsuite/btclog/v2 v2.0.0-20241017175713-3428138b75c7 // indirect
 	github.com/btcsuite/btcwallet v0.16.10-0.20240912233857-ffb143c77cc5 // indirect
 	github.com/btcsuite/btcwallet/wallet/txauthor v1.3.5 // indirect
 	github.com/btcsuite/btcwallet/wallet/txrules v1.2.2 // indirect
@@ -130,16 +131,16 @@ require (
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	github.com/libdns/libdns v0.2.1 // indirect
-	github.com/lightninglabs/aperture v0.3.2-beta.0.20241015115230-d59b5514c19a // indirect
+	github.com/lightninglabs/aperture v0.3.2-beta.0.20241015163138-0a290027fa4a // indirect
 	github.com/lightninglabs/gozmq v0.0.0-20191113021534-d20a764486bf // indirect
 	github.com/lightninglabs/lightning-node-connect/hashmailrpc v1.0.2 // indirect
 	github.com/lightninglabs/neutrino v0.16.1-0.20240425105051-602843d34ffd // indirect
 	github.com/lightninglabs/neutrino/cache v1.1.2 // indirect
 	github.com/lightningnetwork/lightning-onion v1.2.1-0.20240712235311-98bd56499dfb // indirect
 	github.com/lightningnetwork/lnd/clock v1.1.1 // indirect
-	github.com/lightningnetwork/lnd/healthcheck v1.2.5 // indirect
+	github.com/lightningnetwork/lnd/healthcheck v1.2.6 // indirect
 	github.com/lightningnetwork/lnd/queue v1.1.1 // indirect
-	github.com/lightningnetwork/lnd/sqldb v1.0.4 // indirect
+	github.com/lightningnetwork/lnd/sqldb v1.0.5 // indirect
 	github.com/lightningnetwork/lnd/ticker v1.1.1 // indirect
 	github.com/ltcsuite/ltcd v0.0.0-20190101042124-f37f8bf35796 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -201,7 +202,6 @@ require (
 	go.uber.org/mock v0.4.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
-	golang.org/x/exp v0.0.0-20240325151524-a685a6edb6d8 // indirect
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/sys v0.22.0 // indirect
 	golang.org/x/term v0.22.0 // indirect
@@ -234,5 +234,9 @@ replace github.com/lightninglabs/lightning-terminal/autopilotserverrpc => ./auto
 replace google.golang.org/protobuf => github.com/lightninglabs/protobuf-go-hex-display v1.34.2-hex-display
 
 replace github.com/lightninglabs/lightning-terminal/litrpc => ./litrpc
+
+replace github.com/lightningnetwork/lnd => ../../lightningnetwork/lnd/
+
+replace github.com/lightninglabs/taproot-assets => ../taproot-assets/
 
 go 1.22.6
