@@ -11,12 +11,15 @@ import (
 	"testing"
 	"time"
 
+	"golang.org/x/exp/maps"
+
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
+	tapfn "github.com/lightninglabs/taproot-assets/fn"
 	"github.com/lightninglabs/taproot-assets/itest"
 	"github.com/lightninglabs/taproot-assets/proof"
 	"github.com/lightninglabs/taproot-assets/rfq"
@@ -624,7 +627,7 @@ func sendAssetKeySendPayment(t *testing.T, src, dst *HarnessNode, amt uint64,
 	})
 	require.NoError(t, err)
 
-	result, err := getAssetPaymentResult(stream)
+	result, err := getAssetPaymentResult(stream, false)
 	require.NoError(t, err)
 	require.Equal(t, expectedStatus, result.Status)
 
@@ -703,7 +706,8 @@ func createAndPayNormalInvoice(t *testing.T, src, rfqPeer, dst *HarnessNode,
 	require.NoError(t, err)
 
 	return payInvoiceWithAssets(
-		t, src, rfqPeer, invoiceResp, assetID, smallShards,
+		t, src, rfqPeer, invoiceResp.PaymentRequest, assetID, smallShards,
+		fn.None[lnrpc.Payment_PaymentStatus](),
 	)
 }
 
@@ -729,8 +733,8 @@ func payInvoiceWithSatoshi(t *testing.T, payer *HarnessNode,
 }
 
 func payInvoiceWithAssets(t *testing.T, payer, rfqPeer *HarnessNode,
-	invoice *lnrpc.AddInvoiceResponse, assetID []byte,
-	smallShards bool) uint64 {
+	payReq string, assetID []byte, smallShards bool,
+	expectedPayStatus fn.Option[lnrpc.Payment_PaymentStatus]) uint64 {
 
 	ctxb := context.Background()
 	ctxt, cancel := context.WithTimeout(ctxb, defaultTimeout)
@@ -739,12 +743,12 @@ func payInvoiceWithAssets(t *testing.T, payer, rfqPeer *HarnessNode,
 	payerTapd := newTapClient(t, payer)
 
 	decodedInvoice, err := payer.DecodePayReq(ctxt, &lnrpc.PayReqString{
-		PayReq: invoice.PaymentRequest,
+		PayReq: payReq,
 	})
 	require.NoError(t, err)
 
 	sendReq := &routerrpc.SendPaymentRequest{
-		PaymentRequest: invoice.PaymentRequest,
+		PaymentRequest: payReq,
 		TimeoutSeconds: int32(PaymentTimeout.Seconds()),
 		FeeLimitMsat:   1_000_000,
 	}
@@ -777,14 +781,16 @@ func payInvoiceWithAssets(t *testing.T, payer, rfqPeer *HarnessNode,
 	amountMsat := lnwire.MilliSatoshi(decodedInvoice.NumMsat)
 	milliSatsFP := rfqmath.MilliSatoshiToUnits(amountMsat, *rate)
 	numUnits := milliSatsFP.ScaleTo(0).ToUint64()
-	msatPerUnit := uint64(decodedInvoice.NumMsat) / numUnits
+	msatPerUnit := float64(decodedInvoice.NumMsat) / float64(numUnits)
 	t.Logf("Got quote for %v asset units at %v msat/unit from peer %s "+
 		"with SCID %d", numUnits, msatPerUnit, peerPubKey,
 		acceptedQuote.Scid)
 
-	result, err := getAssetPaymentResult(stream)
+	expectedStatus := expectedPayStatus.UnwrapOr(lnrpc.Payment_SUCCEEDED)
+
+	result, err := getAssetPaymentResult(stream, expectedPayStatus.IsSome())
 	require.NoError(t, err)
-	require.Equal(t, lnrpc.Payment_SUCCEEDED, result.Status)
+	require.Equal(t, expectedStatus, result.Status)
 
 	return numUnits
 }
@@ -827,7 +833,7 @@ func createAssetInvoice(t *testing.T, dstRfqPeer, dst *HarnessNode,
 
 	assetUnits := rfqmath.NewBigIntFixedPoint(assetAmount, 0)
 	numMSats := rfqmath.UnitsToMilliSatoshi(assetUnits, *rate)
-	mSatPerUnit := uint64(decodedInvoice.NumMsat) / assetAmount
+	mSatPerUnit := float64(decodedInvoice.NumMsat) / float64(assetAmount)
 
 	require.EqualValues(t, numMSats, decodedInvoice.NumMsat)
 
