@@ -1349,6 +1349,60 @@ func assertAssetBalance(t *testing.T, client *tapClient, assetID []byte,
 
 		t.Logf("Failed to assert expected balance of %d, current "+
 			"assets: %v", expectedBalance, toProtoJSON(t, r))
+// assertSpendableBalance differs from assertAssetBalance in that it asserts
+// that the entire balance is spendable. We consider something spendable if we
+// have a local script key for it.
+func assertSpendableBalance(t *testing.T, client *tapClient, assetID []byte,
+	expectedBalance uint64) {
+
+	t.Helper()
+
+	ctxb := context.Background()
+	ctxt, cancel := context.WithTimeout(ctxb, shortTimeout)
+	defer cancel()
+
+	err := wait.NoError(func() error {
+		utxos, err := client.ListUtxos(ctxt, &taprpc.ListUtxosRequest{})
+		if err != nil {
+			return err
+		}
+
+		assets := tapfn.FlatMap(
+			maps.Values(utxos.ManagedUtxos),
+			func(utxo *taprpc.ManagedUtxo) []*taprpc.Asset {
+				return utxo.Assets
+			},
+		)
+
+		relevantAssets := fn.Filter(func(utxo *taprpc.Asset) bool {
+			return bytes.Equal(utxo.AssetGenesis.AssetId, assetID)
+		}, assets)
+
+		var assetSum uint64
+		for _, asset := range relevantAssets {
+			if asset.ScriptKeyIsLocal {
+				assetSum += asset.Amount
+			}
+		}
+
+		if assetSum != expectedBalance {
+			return fmt.Errorf("expected balance %d, got %d", expectedBalance, assetSum)
+		}
+
+		return nil
+	}, shortTimeout)
+	if err != nil {
+		r, err2 := client.ListAssets(ctxb, &taprpc.ListAssetRequest{})
+		require.NoError(t, err2)
+
+		t.Logf("Failed to assert expected balance of %d, current "+
+			"assets: %v", expectedBalance, toProtoJSON(t, r))
+
+		utxos, err3 := client.ListUtxos(ctxb, &taprpc.ListUtxosRequest{})
+		require.NoError(t, err3)
+
+		t.Logf("Current UTXOs: %v", toProtoJSON(t, utxos))
+
 		t.Fatalf("Failed to assert balance: %v", err)
 	}
 }
