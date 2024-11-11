@@ -1179,6 +1179,8 @@ github.com/lightninglabs/taproot-assets v0.4.2-0.20240923062224-3b92c82bb332 h1:
 github.com/lightninglabs/taproot-assets v0.4.2-0.20240923062224-3b92c82bb332/go.mod h1:B6wbs1rSTBTJwTilsKt7p/WravtKqRvJI0ICDwvcdNQ=
 github.com/lightningnetwork/lightning-onion v1.2.1-0.20230823005744-06182b1d7d2f h1:Pua7+5TcFEJXIIZ1I2YAUapmbcttmLj4TTi786bIi3s=
 github.com/lightningnetwork/lightning-onion v1.2.1-0.20230823005744-06182b1d7d2f/go.mod h1:c0kvRShutpj3l6B9WtTsNTBUtjSmjZXbJd9ZBRQOSKI=
+github.com/lightningnetwork/lnd v0.18.0-beta.rc4.0.20240919091721-70580403898e h1:Weu9TWNEIpC4XLbcUoSFK3Pv2aUSwn7NlYZKdsm8wUU=
+github.com/lightningnetwork/lnd v0.18.0-beta.rc4.0.20240919091721-70580403898e/go.mod h1:/Uh0qCiU/oQls68spxpmP0kRjX/uGkLzt7P/uPpDofE=
 github.com/lightningnetwork/lnd/cert v1.2.2 h1:71YK6hogeJtxSxw2teq3eGeuy4rHGKcFf0d0Uy4qBjI=
 github.com/lightningnetwork/lnd/cert v1.2.2/go.mod h1:jQmFn/Ez4zhDgq2hnYSw8r35bqGVxViXhX6Cd7HXM6U=
 github.com/lightningnetwork/lnd/clock v1.1.1 h1:OfR3/zcJd2RhH0RU+zX/77c0ZiOnIMsDIBjgjWdZgA0=
