@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/lightninglabs/faraday/frdrpc"
-	"github.com/lightninglabs/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 	"github.com/lightninglabs/loop/looprpc"
 	"github.com/lightninglabs/pool/poolrpc"
 	"github.com/lightninglabs/taproot-assets/taprpc"

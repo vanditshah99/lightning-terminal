@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package litrpc;
 
-option go_package = "github.com/lightninglabs/lightning-terminal/litrpc";
+option go_package = "github.com/vanditshah99/lightning-terminal/litrpc";
 
 // Sessions is a service that gives access to the core functionalities of the
 // daemon's session system.

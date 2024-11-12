@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package litrpc;
 
-option go_package = "github.com/lightninglabs/lightning-terminal/litrpc";
+option go_package = "github.com/vanditshah99/lightning-terminal/litrpc";
 
 // The Status server can be used to query the state of various LiT sub-servers.
 service Status {

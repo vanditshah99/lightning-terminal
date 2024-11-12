@@ -1,6 +1,6 @@
 # Lightning Terminal (LiT)
 
-![CI](https://github.com/lightninglabs/lightning-terminal/workflows/CI/badge.svg)
+![CI](https://github.com/vanditshah99/lightning-terminal/workflows/CI/badge.svg)
 
 Lightning Terminal (LiT) is a browser-based interface for managing channel liquidity.
 
@@ -17,7 +17,7 @@ Lightning Terminal (LiT) is a browser-based interface for managing channel liqui
 - Use Pool to earn sats by opening channels to those needing inbound liquidity
 
 ## Installation
-Download the latest binaries from the [releases](https://github.com/lightninglabs/lightning-terminal/releases) page. 
+Download the latest binaries from the [releases](https://github.com/vanditshah99/lightning-terminal/releases) page. 
 
 Additionally, you can find detailed instructions on the [docs.lightning.engineering](https://docs.lightning.engineering/lightning-network-tools/lightning-terminal/get-lit) page.
 

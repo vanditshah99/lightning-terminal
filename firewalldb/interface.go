@@ -1,6 +1,6 @@
 package firewalldb
 
-import "github.com/lightninglabs/lightning-terminal/session"
+import "github.com/vanditshah99/lightning-terminal/session"
 
 // SessionDB is an interface that abstracts the database operations needed for
 // the privacy mapper to function.

@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
-	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
-	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
+	mid "github.com/vanditshah99/lightning-terminal/rpcmiddleware"
+	"github.com/vanditshah99/lightning-terminal/session"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"google.golang.org/protobuf/proto"
 )
 

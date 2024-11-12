@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
 )
 
 type mockKVStoresTX struct {

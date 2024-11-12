@@ -1,7 +1,7 @@
 package rules
 
 import (
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
 	"github.com/lightninglabs/lndclient"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

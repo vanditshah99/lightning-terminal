@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 	"github.com/urfave/cli"
+	"github.com/vanditshah99/lnd/lnrpc"
 )
 
 var statusCommands = []cli.Command{

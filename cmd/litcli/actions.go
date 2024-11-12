@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/lightninglabs/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 	"github.com/urfave/cli"
 )
 

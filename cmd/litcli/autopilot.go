@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightninglabs/lightning-terminal/rules"
-	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/rules"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/urfave/cli"
+	"github.com/vanditshah99/lnd/lnrpc"
 )
 
 var autopilotCommands = cli.Command{

@@ -3,7 +3,7 @@ package firewalldb
 import (
 	"context"
 
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"go.etcd.io/bbolt"
 )
 

@@ -18,7 +18,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightninglabs/lightning-terminal/autopilotserver/mock"
+	"github.com/vanditshah99/lightning-terminal/autopilotserver/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd"
 	"github.com/vanditshah99/lnd/lnrpc"

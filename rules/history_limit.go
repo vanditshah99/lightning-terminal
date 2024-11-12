@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
-	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
+	mid "github.com/vanditshah99/lightning-terminal/rpcmiddleware"
+	"github.com/vanditshah99/lightning-terminal/session"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"google.golang.org/protobuf/proto"
 )
 

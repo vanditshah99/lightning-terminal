@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/vanditshah99/build"
+	"github.com/vanditshah99/lnd/build"
 )
 
 // ContextKey is the type that we use to identify account specific values in the

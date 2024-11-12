@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"
 	"github.com/vanditshah99/lnd/rpcperms"

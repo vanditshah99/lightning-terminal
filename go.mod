@@ -1,4 +1,4 @@
-module github.com/lightninglabs/lightning-terminal
+module github.com/vanditshah99/lightning-terminal
 
 require (
 	github.com/btcsuite/btcd v0.24.2
@@ -14,7 +14,7 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/lightninglabs/faraday v0.2.13-alpha
 	github.com/lightninglabs/lightning-node-connect v0.3.1-alpha
-	github.com/lightninglabs/lightning-terminal/autopilotserverrpc v0.0.1
+	github.com/vanditshah99/lightning-terminal/autopilotserverrpc v0.0.1
 	github.com/lightninglabs/lndclient v1.0.1-0.20240725080034-64a756aa4c36
 	github.com/lightninglabs/loop v0.28.6-beta.0.20240729115851-63e976ab27a4
 	github.com/lightninglabs/loop/swapserverrpc v1.0.8
@@ -220,7 +220,7 @@ require (
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
-replace github.com/lightninglabs/lightning-terminal/autopilotserverrpc => ./autopilotserverrpc
+replace github.com/vanditshah99/lightning-terminal/autopilotserverrpc => ./autopilotserverrpc
 
 // We want to format raw bytes as hex instead of base64. The forked version
 // allows us to specify that as an option. This is required for the

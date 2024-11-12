@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/lightninglabs/lndclient"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/lnrpc"
 )
 
 // TestChannelRestrictCheckRequest ensures that the ChannelRestrictEnforcer

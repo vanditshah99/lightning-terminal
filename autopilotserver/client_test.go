@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightninglabs/lightning-terminal/autopilotserver/mock"
-	"github.com/lightningnetwork/vanditshah99/lntest/wait"
+	"github.com/vanditshah99/lightning-terminal/autopilotserver/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/lntest/wait"
 )
 
 // TestAutopilotClient tests that the Client correctly interacts with the

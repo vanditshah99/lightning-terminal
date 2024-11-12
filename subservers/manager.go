@@ -8,8 +8,8 @@ import (
 	"time"
 
 	restProxy "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/lightninglabs/lightning-terminal/perms"
-	"github.com/lightninglabs/lightning-terminal/status"
+	"github.com/vanditshah99/lightning-terminal/perms"
+	"github.com/vanditshah99/lightning-terminal/status"
 	"github.com/lightninglabs/lndclient"
 	grpcProxy "github.com/mwitkow/grpc-proxy/proxy"
 	"github.com/vanditshah99/lnd/lncfg"

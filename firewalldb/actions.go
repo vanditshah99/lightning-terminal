@@ -9,8 +9,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/vanditshah99/tlv"
+	"github.com/vanditshah99/lightning-terminal/session"
+	"github.com/vanditshah99/lnd/tlv"
 	"go.etcd.io/bbolt"
 )
 

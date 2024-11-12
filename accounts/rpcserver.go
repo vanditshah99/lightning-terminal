@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/vanditshah99/lnd/lntypes"
 	"github.com/vanditshah99/lnd/lnwire"
 	"github.com/vanditshah99/lnd/macaroons"

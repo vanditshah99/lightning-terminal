@@ -1,4 +1,4 @@
-PKG := github.com/lightninglabs/lightning-terminal
+PKG := github.com/vanditshah99/lightning-terminal
 ESCPKG := github.com\/lightninglabs\/lightning-terminal
 LND_PKG := github.com/vanditshah99/lnd
 LOOP_PKG := github.com/lightninglabs/loop

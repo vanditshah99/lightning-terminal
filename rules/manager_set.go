@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/lightninglabs/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 )
 
 // ErrUnknownRule indicates that LiT is unaware of a values name.

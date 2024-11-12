@@ -7,7 +7,7 @@ in their respective GitHub repos ([lnd](https://github.com/vanditshah99/lnd/issu
 [pool](https://github.com/lightninglabs/pool/issues),
 [faraday](https://github.com/lightninglabs/faraday/issues). If the issue is related to the
 web app, then you should open an
-[issue](https://github.com/lightninglabs/lightning-terminal/issues) here in this repo.
+[issue](https://github.com/vanditshah99/lightning-terminal/issues) here in this repo.
 
 ### Server
 

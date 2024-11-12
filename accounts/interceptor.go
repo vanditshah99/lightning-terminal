@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
+	mid "github.com/vanditshah99/lightning-terminal/rpcmiddleware"
 	"github.com/vanditshah99/lnd/lnrpc"
 	"github.com/vanditshah99/lnd/macaroons"
 	"google.golang.org/protobuf/proto"

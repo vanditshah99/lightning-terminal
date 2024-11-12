@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/lnrpc"
 )
 
 // TestOnChainBudgetVerifySane tests that the OnChainBudgetMgr VerifySane method

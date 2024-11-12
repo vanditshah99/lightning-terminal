@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/jessevdk/go-flags"
-	terminal "github.com/lightninglabs/lightning-terminal"
+	terminal "github.com/vanditshah99/lightning-terminal"
 )
 
 // main starts the lightning-terminal application.

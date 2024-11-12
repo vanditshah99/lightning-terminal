@@ -2,9 +2,9 @@
 FROM node:16.14.2-alpine as nodejsbuilder
 
 # Copy in the local repository to build from.
-COPY . /go/src/github.com/lightninglabs/lightning-terminal
+COPY . /go/src/github.com/vanditshah99/lightning-terminal
 
-RUN cd /go/src/github.com/lightninglabs/lightning-terminal/app \
+RUN cd /go/src/github.com/vanditshah99/lightning-terminal/app \
   && yarn install \
   && yarn build
 
@@ -17,7 +17,7 @@ FROM golang:1.22.3-alpine as golangbuilder
 
 # Instead of checking out from git again, we just copy the whole working
 # directory of the previous stage that includes the generated static assets.
-COPY --from=nodejsbuilder /go/src/github.com/lightninglabs/lightning-terminal /go/src/github.com/lightninglabs/lightning-terminal
+COPY --from=nodejsbuilder /go/src/github.com/vanditshah99/lightning-terminal /go/src/github.com/vanditshah99/lightning-terminal
 
 # Force Go to use the cgo based DNS resolver. This is required to ensure DNS
 # queries required to connect to linked containers succeed.
@@ -26,7 +26,7 @@ ENV GODEBUG netdns=cgo
 # Install dependencies and install/build lightning-terminal.
 RUN apk add --no-cache --update alpine-sdk \
   make \
-  && cd /go/src/github.com/lightninglabs/lightning-terminal \
+  && cd /go/src/github.com/vanditshah99/lightning-terminal \
   && make go-install \
   && make go-install-cli
 

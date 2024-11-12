@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightninglabs/lightning-terminal/autopilotserverrpc"
-	"github.com/lightningnetwork/vanditshah99/tor"
+	"github.com/vanditshah99/lightning-terminal/autopilotserverrpc"
+	"github.com/vanditshah99/lnd/tor"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"gopkg.in/macaroon-bakery.v2/bakery"

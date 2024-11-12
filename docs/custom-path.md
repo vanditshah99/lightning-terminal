@@ -21,10 +21,10 @@ available on Docker Hub. Just append `-path-prefix` to any version tag (after
 
 ```shell
 # Default image.
-⛰  docker pull lightninglabs/lightning-terminal:v0.5.3-alpha
+⛰  docker pull vanditshah99/lightning-terminal:v0.5.3-alpha
 
 # Image with /lit path prefix.
-⛰  docker pull lightninglabs/lightning-terminal:v0.5.3-alpha-path-prefix
+⛰  docker pull vanditshah99/lightning-terminal:v0.5.3-alpha-path-prefix
 ```
 
 ## Use with nginx reverse proxy

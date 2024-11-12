@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
-	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
+	mid "github.com/vanditshah99/lightning-terminal/rpcmiddleware"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/vanditshah99/lnd/lnrpc"
 	"github.com/vanditshah99/lnd/macaroons"
 )

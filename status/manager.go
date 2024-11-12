@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lightninglabs/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 )
 
 // SubServerOption defines a functional option that can be used to modify the

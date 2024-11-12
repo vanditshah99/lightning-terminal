@@ -3,7 +3,7 @@ package firewalldb
 import (
 	"fmt"
 
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/session"
 )
 
 type mockSessionDB struct {

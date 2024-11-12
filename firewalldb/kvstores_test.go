@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/stretchr/testify/require"
 )
 

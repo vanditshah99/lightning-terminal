@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightninglabs/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 	"github.com/lightninglabs/taproot-assets/taprpc/tapchannelrpc"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"

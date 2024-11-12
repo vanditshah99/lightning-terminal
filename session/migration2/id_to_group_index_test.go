@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightninglabs/lightning-terminal/session/migtest"
+	"github.com/vanditshah99/lightning-terminal/session/migtest"
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/bbolt"
 )

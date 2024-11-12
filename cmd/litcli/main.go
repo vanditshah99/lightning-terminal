@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	terminal "github.com/lightninglabs/lightning-terminal"
-	"github.com/lightninglabs/lightning-terminal/session"
+	terminal "github.com/vanditshah99/lightning-terminal"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"github.com/lightninglabs/lndclient"
 	"github.com/lightninglabs/taproot-assets/perms"
 	"github.com/urfave/cli"

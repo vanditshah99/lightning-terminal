@@ -7,10 +7,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/lightninglabs/lightning-terminal/accounts"
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightningnetwork/vanditshah99/lncfg"
+	"github.com/vanditshah99/lightning-terminal/accounts"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 	"github.com/urfave/cli"
+	"github.com/vanditshah99/lnd/lncfg"
 )
 
 const (

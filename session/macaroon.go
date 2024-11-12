@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"google.golang.org/protobuf/proto"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 	"gopkg.in/macaroon.v2"

@@ -8,7 +8,7 @@ import (
 	"github.com/lightninglabs/pool"
 	"github.com/lightninglabs/pool/perms"
 	"github.com/lightninglabs/pool/poolrpc"
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

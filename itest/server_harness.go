@@ -10,7 +10,7 @@ import (
 
 	"github.com/lightninglabs/loop/swapserverrpc"
 	"github.com/lightninglabs/pool/auctioneerrpc"
-	"github.com/lightningnetwork/vanditshah99/cert"
+	"github.com/vanditshah99/lnd/cert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

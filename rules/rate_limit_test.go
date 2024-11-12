@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

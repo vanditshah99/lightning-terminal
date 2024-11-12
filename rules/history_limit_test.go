@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/lnrpc"
 )
 
 // TestHistoryLimitVerifySane tests that the HistoryLimit VerifySane method

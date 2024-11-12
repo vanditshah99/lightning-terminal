@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/session/migration1"
-	"github.com/lightninglabs/lightning-terminal/session/migration2"
+	"github.com/vanditshah99/lightning-terminal/session/migration1"
+	"github.com/vanditshah99/lightning-terminal/session/migration2"
 	"go.etcd.io/bbolt"
 )
 

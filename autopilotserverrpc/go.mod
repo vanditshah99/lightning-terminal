@@ -1,4 +1,4 @@
-module github.com/lightninglabs/lightning-terminal/autopilotserverrpc
+module github.com/vanditshah99/lightning-terminal/autopilotserverrpc
 
 go 1.19
 

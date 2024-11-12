@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightningnetwork/vanditshah99/macaroons"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
 	"github.com/urfave/cli"
+	"github.com/vanditshah99/lnd/macaroons"
 )
 
 var (

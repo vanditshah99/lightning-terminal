@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/lightninglabs/lightning-terminal/firewalldb"
-	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightninglabs/lightning-terminal/session"
+	"github.com/vanditshah99/lightning-terminal/firewalldb"
+	"github.com/vanditshah99/lightning-terminal/litrpc"
+	"github.com/vanditshah99/lightning-terminal/session"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -13,7 +13,7 @@ Once you have the necessary prerequisites, LiT can be compiled by running the fo
 commands:
 
 ```shell script
-$ git clone https://github.com/lightninglabs/lightning-terminal.git
+$ git clone https://github.com/vanditshah99/lightning-terminal.git
 $ cd lightning-terminal
 $ make install
 ```
@@ -64,7 +64,7 @@ image from. All local files will be ignored, everything is cloned and built from
 GitHub so you don't need to install any dependencies:
 
 ```shell script
-$ docker build -t lightninglabs/lightning-terminal --build-arg checkout=v0.3.2-alpha .
+$ docker build -t vanditshah99/lightning-terminal --build-arg checkout=v0.3.2-alpha .
 ```
 
 ### Compiling gRPC proto files

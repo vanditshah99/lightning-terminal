@@ -2,7 +2,7 @@
   "name": "lightning-terminal",
   "version": "0.0.1",
   "description": "Lightning Terminal",
-  "repository": "https://github.com/lightninglabs/lightning-terminal",
+  "repository": "https://github.com/vanditshah99/lightning-terminal",
   "private": true,
   "scripts": {
     "start": "BROWSER=none react-scripts start",

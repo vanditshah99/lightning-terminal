@@ -1,4 +1,4 @@
-module github.com/lightninglabs/lightning-terminal/tools
+module github.com/vanditshah99/lightning-terminal/tools
 
 go 1.22.3
 
