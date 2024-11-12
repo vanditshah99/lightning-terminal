@@ -13,7 +13,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/lightninglabs/lightning-terminal/autopilotserverrpc"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/lightningnetwork/vanditshah99/tor"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"gopkg.in/macaroon-bakery.v2/bakery"

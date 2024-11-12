@@ -3,7 +3,7 @@ package firewalldb
 import (
 	"encoding/binary"
 
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/lightningnetwork/vanditshah99/kvdb"
 )
 
 type actionPaginator struct {

@@ -12,7 +12,7 @@ import (
 	"github.com/lightninglabs/lightning-terminal/litrpc"
 	"github.com/lightninglabs/lightning-terminal/rules"
 	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"github.com/urfave/cli"
 )
 

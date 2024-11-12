@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 )

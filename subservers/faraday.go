@@ -9,7 +9,7 @@ import (
 	"github.com/lightninglabs/faraday/frdrpcserver"
 	"github.com/lightninglabs/faraday/frdrpcserver/perms"
 	"github.com/lightninglabs/lndclient"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

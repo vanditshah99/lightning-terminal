@@ -13,7 +13,7 @@ import (
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/lightningnetwork/vanditshah99/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

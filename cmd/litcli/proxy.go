@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightningnetwork/lnd/lncfg"
+	"github.com/lightningnetwork/vanditshah99/lncfg"
 	"github.com/urfave/cli"
 )
 

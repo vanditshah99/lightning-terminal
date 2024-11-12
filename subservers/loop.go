@@ -9,7 +9,7 @@ import (
 	"github.com/lightninglabs/loop/loopd"
 	"github.com/lightninglabs/loop/loopd/perms"
 	"github.com/lightninglabs/loop/looprpc"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

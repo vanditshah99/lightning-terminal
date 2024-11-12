@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/lightningnetwork/vanditshah99/macaroons"
 	"gopkg.in/macaroon.v2"
 )
 

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/lightningnetwork/vanditshah99/macaroons"
 	"github.com/urfave/cli"
 )
 

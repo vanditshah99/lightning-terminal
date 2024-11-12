@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/lightninglabs/lightning-terminal/litrpc"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"github.com/urfave/cli"
 )
 

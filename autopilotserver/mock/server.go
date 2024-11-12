@@ -13,7 +13,7 @@ import (
 	"github.com/lightninglabs/lightning-terminal/autopilotserverrpc"
 	"github.com/lightninglabs/lightning-terminal/rules"
 	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/lnd/lntest/port"
+	"github.com/lightningnetwork/vanditshah99/lntest/port"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"gopkg.in/macaroon-bakery.v2/bakery"

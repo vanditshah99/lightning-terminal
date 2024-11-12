@@ -12,7 +12,7 @@ import (
 	"github.com/lightninglabs/lightning-terminal/litrpc"
 	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
 	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/lightningnetwork/vanditshah99/lnrpc"
 	"google.golang.org/protobuf/proto"
 )
 

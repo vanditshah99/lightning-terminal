@@ -8,7 +8,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/lightninglabs/lightning-terminal/autopilotserver/mock"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/lightningnetwork/vanditshah99/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

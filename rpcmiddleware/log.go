@@ -2,7 +2,7 @@ package rpcmiddleware
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
+	"github.com/lightningnetwork/vanditshah99/build"
 )
 
 const Subsystem = "RMID"

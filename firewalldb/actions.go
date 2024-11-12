@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/lightningnetwork/vanditshah99/tlv"
 	"go.etcd.io/bbolt"
 )
 
