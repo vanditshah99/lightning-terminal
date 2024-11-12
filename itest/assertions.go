@@ -6,11 +6,11 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/channeldb"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lntest"
+	"github.com/vanditshah99/lndditshah99/lntest/wait"
 )
 
 // shutdownAndAssert shuts down the given node and asserts that no errors

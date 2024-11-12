@@ -21,12 +21,12 @@ require (
 	github.com/lightninglabs/pool v0.6.5-beta.0.20240604070222-e121aadb3289
 	github.com/lightninglabs/pool/auctioneerrpc v1.1.2
 	github.com/lightninglabs/taproot-assets v0.4.2-0.20240923062224-3b92c82bb332
-	github.com/lightningnetwork/lnd v0.18.0-beta.rc4.0.20240919091721-70580403898e
-	github.com/lightningnetwork/lnd/cert v1.2.2
-	github.com/lightningnetwork/lnd/fn v1.1.0
-	github.com/lightningnetwork/lnd/kvdb v1.4.8
-	github.com/lightningnetwork/lnd/tlv v1.2.6
-	github.com/lightningnetwork/lnd/tor v1.1.2
+	github.com/vanditshah99/lnd v0.18.0-beta.rc4.0.20240919091721-70580403898e
+	github.com/vanditshah99/lnd/cert v1.2.2
+	github.com/vanditshah99/lnd/fn v1.1.0
+	github.com/vanditshah99/lnd/kvdb v1.4.8
+	github.com/vanditshah99/lnd/tlv v1.2.6
+	github.com/vanditshah99/lnd/tor v1.1.2
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
 	github.com/mwitkow/grpc-proxy v0.0.0-20230212185441-f345521cb9c9
 	github.com/stretchr/testify v1.9.0
@@ -130,11 +130,11 @@ require (
 	github.com/lightninglabs/neutrino v0.16.1-0.20240425105051-602843d34ffd // indirect
 	github.com/lightninglabs/neutrino/cache v1.1.2 // indirect
 	github.com/lightningnetwork/lightning-onion v1.2.1-0.20230823005744-06182b1d7d2f // indirect
-	github.com/lightningnetwork/lnd/clock v1.1.1 // indirect
-	github.com/lightningnetwork/lnd/healthcheck v1.2.4 // indirect
-	github.com/lightningnetwork/lnd/queue v1.1.1 // indirect
-	github.com/lightningnetwork/lnd/sqldb v1.0.2 // indirect
-	github.com/lightningnetwork/lnd/ticker v1.1.1 // indirect
+	github.com/vanditshah99/lnd/clock v1.1.1 // indirect
+	github.com/vanditshah99/lnd/healthcheck v1.2.4 // indirect
+	github.com/vanditshah99/lnd/queue v1.1.1 // indirect
+	github.com/vanditshah99/lnd/sqldb v1.0.2 // indirect
+	github.com/vanditshah99/lnd/ticker v1.1.1 // indirect
 	github.com/ltcsuite/ltcd v0.0.0-20190101042124-f37f8bf35796 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect

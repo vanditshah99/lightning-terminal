@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/signal"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/build"
+	"github.com/vanditshah99/lndditshah99/lntest"
+	"github.com/vanditshah99/lndditshah99/signal"
 )
 
 var interceptor *signal.Interceptor

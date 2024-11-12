@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/vanditshah99/lnd"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )
 

@@ -14,7 +14,7 @@ in future versions.
 In addition to the LiT specific parameters, you must also provide configuration
 to the `lnd`, `loop` and `faraday` daemons. For `lnd`, each flag must be
 prefixed with `lnd.` (ex: `lnd.lnddir=~/.lnd`). Please see the
-[sample-lnd.conf](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf)
+[sample-lnd.conf](https://github.com/vanditshah99/lnd/blob/master/sample-lnd.conf)
 file for more details on the available parameters. Note that `loopd` and
 `faraday` will automatically connect to the in-process `lnd` node, so you do not
 need to provide them with any additional parameters unless you want to override

@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vanditshah99/lnd/kvdb"
+	"github.com/vanditshah99/lndditshah99/lnwire"
 	"go.etcd.io/bbolt"
 )
 

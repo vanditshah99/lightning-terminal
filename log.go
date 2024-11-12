@@ -17,9 +17,9 @@ import (
 	"github.com/lightninglabs/loop/loopd"
 	"github.com/lightninglabs/pool"
 	tap "github.com/lightninglabs/taproot-assets"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/signal"
+	"github.com/vanditshah99/lnd"
+	"github.com/vanditshah99/lndditshah99/build"
+	"github.com/vanditshah99/lndditshah99/signal"
 	"google.golang.org/grpc/grpclog"
 )
 

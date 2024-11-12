@@ -6,10 +6,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lntypes"
+	"github.com/vanditshah99/lndditshah99/lnwire"
+	"github.com/vanditshah99/lndditshah99/tlv"
 )
 
 const (

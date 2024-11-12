@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/lightninglabs/lndclient"
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/vanditshah99/lnd/lncfg"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
 	"google.golang.org/grpc"
 )
 

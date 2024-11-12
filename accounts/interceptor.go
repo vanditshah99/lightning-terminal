@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lndditshah99/macaroons"
 	"google.golang.org/protobuf/proto"
 	"gopkg.in/macaroon.v2"
 )

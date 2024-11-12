@@ -1,6 +1,6 @@
 PKG := github.com/lightninglabs/lightning-terminal
 ESCPKG := github.com\/lightninglabs\/lightning-terminal
-LND_PKG := github.com/lightningnetwork/lnd
+LND_PKG := github.com/vanditshah99/lnd
 LOOP_PKG := github.com/lightninglabs/loop
 POOL_PKG := github.com/lightninglabs/pool
 TAP_PKG := github.com/lightninglabs/taproot-assets
@@ -148,7 +148,7 @@ go-install-noui:
 
 go-install-cli:
 	@$(call print, "Installing all CLI binaries.")
-	$(GOINSTALL) -trimpath -tags="$(LND_RELEASE_TAGS)" -ldflags "$(LDFLAGS)" github.com/lightningnetwork/lnd/cmd/lncli
+	$(GOINSTALL) -trimpath -tags="$(LND_RELEASE_TAGS)" -ldflags "$(LDFLAGS)" github.com/vanditshah99/lnd/cmd/lncli
 	$(GOINSTALL) -trimpath -ldflags "$(LDFLAGS)" github.com/lightninglabs/loop/cmd/loop
 	$(GOINSTALL) -trimpath github.com/lightninglabs/faraday/cmd/frcli
 	$(GOINSTALL) -trimpath -ldflags "$(LDFLAGS)" github.com/lightninglabs/pool/cmd/pool

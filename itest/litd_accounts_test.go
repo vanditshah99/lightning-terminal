@@ -11,10 +11,10 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/lightninglabs/lightning-terminal/litrpc"
 	"github.com/lightninglabs/taproot-assets/taprpc/tapchannelrpc"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
+	"github.com/vanditshah99/lndditshah99/lntest"
 	"google.golang.org/grpc"
 )
 

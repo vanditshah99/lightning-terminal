@@ -15,11 +15,11 @@ import (
 	"github.com/lightninglabs/taproot-assets/taprpc/mintrpc"
 	tchrpc "github.com/lightninglabs/taproot-assets/taprpc/tapchannelrpc"
 	"github.com/lightninglabs/taproot-assets/taprpc/universerpc"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd/fn"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lntest"
+	"github.com/vanditshah99/lndditshah99/lntest/wait"
 )
 
 var (

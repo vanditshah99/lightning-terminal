@@ -9,11 +9,11 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/lightninglabs/lndclient"
-	"github.com/lightningnetwork/lnd/channeldb"
-	invpkg "github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vanditshah99/lnd/channeldb"
+	invpkg "github.com/vanditshah99/lndditshah99/invoices"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lntypes"
+	"github.com/vanditshah99/lndditshah99/lnwire"
 )
 
 // Config holds the configuration options for the accounts service.

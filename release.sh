@@ -10,7 +10,7 @@
 set -e
 
 PKG="github.com/lightninglabs/lightning-terminal"
-LND_PKG="github.com/lightningnetwork/lnd"
+LND_PKG="github.com/vanditshah99/lnd"
 FARADAY_PKG="github.com/lightninglabs/faraday"
 LOOP_PKG="github.com/lightninglabs/loop"
 POOL_PKG="github.com/lightninglabs/pool"

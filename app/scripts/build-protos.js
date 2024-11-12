@@ -40,7 +40,7 @@ const protoSources = async () => {
     `Found:\n LND ${lndVersion[1]}\n Loop ${loopVersion[1]}\n Pool ${poolVersion[1]}`,
   );
   return {
-    lnd: `lightningnetwork/lnd/${lndVersion[1]}/lnrpc/lightning.proto`,
+    lnd: `vanditshah99/lnd/${lndVersion[1]}/lnrpc/lightning.proto`,
     loop: `lightninglabs/loop/${loopVersion[1]}/looprpc/client.proto`,
     'swapserverrpc/server': `lightninglabs/loop/${loopVersion[1]}/swapserverrpc/server.proto`,
     'swapserverrpc/common': `lightninglabs/loop/${loopVersion[1]}/swapserverrpc/common.proto`,

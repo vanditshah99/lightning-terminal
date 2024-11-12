@@ -13,7 +13,7 @@ General Lightning questions and/or support requests are best directed to the Lig
 
 Also make sure you've read the Lightning Terminal specific documentation at https://docs.lightning.engineering/intermediate-get-lit/get-lit-overview.
 
-For reporting security issues, please read instructions at https://github.com/lightningnetwork/lnd#security.
+For reporting security issues, please read instructions at https://github.com/vanditshah99/lnd#security.
 
 -->
 

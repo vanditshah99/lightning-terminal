@@ -13,12 +13,12 @@ import (
 	"github.com/lightninglabs/taproot-assets/rfq"
 	"github.com/lightninglabs/taproot-assets/taprpc"
 	tchrpc "github.com/lightninglabs/taproot-assets/taprpc/tapchannelrpc"
-	"github.com/lightningnetwork/lnd/cmd/commands"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/record"
 	"github.com/urfave/cli"
+	"github.com/vanditshah99/lnd/cmd/commands"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
+	"github.com/vanditshah99/lndditshah99/lntypes"
+	"github.com/vanditshah99/lndditshah99/record"
 	"google.golang.org/grpc"
 )
 

@@ -19,13 +19,13 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/lightninglabs/lightning-terminal/autopilotserver/mock"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/node"
-	"github.com/lightningnetwork/lnd/lntest/port"
-	"github.com/lightningnetwork/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
+	"github.com/vanditshah99/lnd"
+	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lndditshah99/lntest"
+	"github.com/vanditshah99/lndditshah99/lntest/node"
+	"github.com/vanditshah99/lndditshah99/lntest/port"
+	"github.com/vanditshah99/lndditshah99/lntest/wait"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc/grpclog"
 )
@@ -1205,7 +1205,7 @@ func (n *NetworkHarness) AssertNodeKnown(node, target *HarnessNode) error {
 
 		// TODO(guggero): Uncomment this once the lnd bug of the node
 		// announcement timing is fixed:
-		// https://github.com/lightningnetwork/lnd/issues/8870
+		// https://github.com/vanditshah99/lndditshah99/issues/8870
 		//
 		// if len(info.Node.Features) == 0 {
 		//	return fmt.Errorf("node %x has no features for %x",

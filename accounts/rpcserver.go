@@ -9,9 +9,9 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/lightninglabs/lightning-terminal/litrpc"
 	"github.com/lightninglabs/lightning-terminal/session"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/vanditshah99/lnd/lntypes"
+	"github.com/vanditshah99/lndditshah99/lnwire"
+	"github.com/vanditshah99/lndditshah99/macaroons"
 	"gopkg.in/macaroon-bakery.v2/bakery/checkers"
 	"gopkg.in/macaroon.v2"
 )
