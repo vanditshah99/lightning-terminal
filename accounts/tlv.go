@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
-	"github.com/vanditshah99/lndditshah99/lnwire"
-	"github.com/vanditshah99/lndditshah99/tlv"
+	"github.com/vanditshah99/lnd/lntypes"
+	"github.com/vanditshah99/lnd/lnwire"
+	"github.com/vanditshah99/lnd/tlv"
 )
 
 const (

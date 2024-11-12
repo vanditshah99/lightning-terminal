@@ -10,9 +10,9 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
-	"github.com/vanditshah99/lndditshah99/lnwire"
+	"github.com/vanditshah99/lnd/lnrpc/routerrpc"
+	"github.com/vanditshah99/lnd/lntypes"
+	"github.com/vanditshah99/lnd/lnwire"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

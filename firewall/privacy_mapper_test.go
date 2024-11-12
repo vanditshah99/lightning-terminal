@@ -12,7 +12,7 @@ import (
 	"github.com/lightninglabs/lightning-terminal/session"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/rpcperms"
+	"github.com/vanditshah99/lnd/rpcperms"
 	"google.golang.org/protobuf/proto"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 	"gopkg.in/macaroon.v2"

@@ -21,11 +21,11 @@ import (
 	"github.com/lightninglabs/lightning-terminal/autopilotserver/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lntest"
-	"github.com/vanditshah99/lndditshah99/lntest/node"
-	"github.com/vanditshah99/lndditshah99/lntest/port"
-	"github.com/vanditshah99/lndditshah99/lntest/wait"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lnd/lntest"
+	"github.com/vanditshah99/lnd/lntest/node"
+	"github.com/vanditshah99/lnd/lntest/port"
+	"github.com/vanditshah99/lnd/lntest/wait"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc/grpclog"
 )
@@ -1205,7 +1205,7 @@ func (n *NetworkHarness) AssertNodeKnown(node, target *HarnessNode) error {
 
 		// TODO(guggero): Uncomment this once the lnd bug of the node
 		// announcement timing is fixed:
-		// https://github.com/vanditshah99/lndditshah99/issues/8870
+		// https://github.com/vanditshah99/lnd/issues/8870
 		//
 		// if len(info.Node.Features) == 0 {
 		//	return fmt.Errorf("node %x has no features for %x",

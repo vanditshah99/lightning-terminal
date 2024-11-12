@@ -11,7 +11,7 @@ import (
 
 	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/vanditshah99/lnd/kvdb"
-	"github.com/vanditshah99/lndditshah99/lnwire"
+	"github.com/vanditshah99/lnd/lnwire"
 	"go.etcd.io/bbolt"
 )
 

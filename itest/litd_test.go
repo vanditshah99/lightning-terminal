@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/build"
-	"github.com/vanditshah99/lndditshah99/lntest"
-	"github.com/vanditshah99/lndditshah99/signal"
+	"github.com/vanditshah99/lnd/lntest"
+	"github.com/vanditshah99/lnd/signal"
 )
 
 var interceptor *signal.Interceptor

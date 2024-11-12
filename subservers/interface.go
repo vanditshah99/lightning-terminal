@@ -6,7 +6,7 @@ import (
 	restProxy "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/lightninglabs/lndclient"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/macaroons"
+	"github.com/vanditshah99/lnd/macaroons"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

@@ -9,10 +9,10 @@ import (
 	"github.com/lightninglabs/lndclient"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/channeldb"
-	invpkg "github.com/vanditshah99/lndditshah99/invoices"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
+	invpkg "github.com/vanditshah99/lnd/invoices"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc/routerrpc"
+	"github.com/vanditshah99/lnd/lntypes"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
-	"github.com/vanditshah99/lndditshah99/lnwire"
+	"github.com/vanditshah99/lnd/lntypes"
+	"github.com/vanditshah99/lnd/lnwire"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )
 

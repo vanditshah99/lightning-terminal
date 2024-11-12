@@ -13,8 +13,8 @@ import (
 	"github.com/lightninglabs/taproot-assets/taprpc/tapchannelrpc"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
-	"github.com/vanditshah99/lndditshah99/lntest"
+	"github.com/vanditshah99/lnd/lnrpc/routerrpc"
+	"github.com/vanditshah99/lnd/lntest"
 	"google.golang.org/grpc"
 )
 

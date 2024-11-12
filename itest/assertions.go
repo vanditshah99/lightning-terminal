@@ -8,9 +8,9 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/channeldb"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lntest"
-	"github.com/vanditshah99/lndditshah99/lntest/wait"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lnd/lntest"
+	"github.com/vanditshah99/lnd/lntest/wait"
 )
 
 // shutdownAndAssert shuts down the given node and asserts that no errors

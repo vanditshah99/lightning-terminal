@@ -17,9 +17,9 @@ import (
 	"github.com/lightninglabs/taproot-assets/taprpc/universerpc"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/fn"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lntest"
-	"github.com/vanditshah99/lndditshah99/lntest/wait"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lnd/lntest"
+	"github.com/vanditshah99/lnd/lntest/wait"
 )
 
 var (

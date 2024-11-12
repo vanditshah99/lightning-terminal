@@ -15,10 +15,10 @@ import (
 	tchrpc "github.com/lightninglabs/taproot-assets/taprpc/tapchannelrpc"
 	"github.com/urfave/cli"
 	"github.com/vanditshah99/lnd/cmd/commands"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
-	"github.com/vanditshah99/lndditshah99/record"
+	"github.com/vanditshah99/lnd/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc/routerrpc"
+	"github.com/vanditshah99/lnd/lntypes"
+	"github.com/vanditshah99/lnd/record"
 	"google.golang.org/grpc"
 )
 

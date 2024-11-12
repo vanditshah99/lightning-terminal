@@ -11,7 +11,7 @@ import (
 	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
 	"github.com/lightninglabs/lightning-terminal/session"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/macaroons"
+	"github.com/vanditshah99/lnd/macaroons"
 )
 
 const (

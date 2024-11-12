@@ -13,7 +13,7 @@ import (
 	"github.com/lightninglabs/lndclient"
 	grpcProxy "github.com/mwitkow/grpc-proxy/proxy"
 	"github.com/vanditshah99/lnd/lncfg"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/backoff"
 	"google.golang.org/grpc/credentials"

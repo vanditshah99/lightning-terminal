@@ -9,7 +9,7 @@ import (
 	"github.com/lightninglabs/lightning-terminal/litrpc"
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/macaroons"
+	"github.com/vanditshah99/lnd/macaroons"
 )
 
 // testModeIntegrated makes sure that in integrated mode all daemons work

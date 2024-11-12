@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/vanditshah99/lnd"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )
 

@@ -10,8 +10,8 @@ import (
 	"github.com/lightninglabs/lightning-terminal/litrpc"
 	"github.com/lightninglabs/lightning-terminal/session"
 	"github.com/vanditshah99/lnd/lntypes"
-	"github.com/vanditshah99/lndditshah99/lnwire"
-	"github.com/vanditshah99/lndditshah99/macaroons"
+	"github.com/vanditshah99/lnd/lnwire"
+	"github.com/vanditshah99/lnd/macaroons"
 	"gopkg.in/macaroon-bakery.v2/bakery/checkers"
 	"gopkg.in/macaroon.v2"
 )

@@ -18,8 +18,8 @@ import (
 	"github.com/lightninglabs/pool"
 	tap "github.com/lightninglabs/taproot-assets"
 	"github.com/vanditshah99/lnd"
-	"github.com/vanditshah99/lndditshah99/build"
-	"github.com/vanditshah99/lndditshah99/signal"
+	"github.com/vanditshah99/lnd/build"
+	"github.com/vanditshah99/lnd/signal"
 	"google.golang.org/grpc/grpclog"
 )
 

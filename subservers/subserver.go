@@ -6,7 +6,7 @@ import (
 
 	"github.com/lightninglabs/lndclient"
 	"github.com/vanditshah99/lnd/lncfg"
-	"github.com/vanditshah99/lndditshah99/lnrpc"
+	"github.com/vanditshah99/lnd/lnrpc"
 	"google.golang.org/grpc"
 )
 

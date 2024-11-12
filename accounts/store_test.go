@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
+	"github.com/vanditshah99/lnd/lntypes"
 )
 
 // TestAccountStore tests that accounts can be stored and retrieved correctly.

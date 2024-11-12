@@ -19,7 +19,7 @@ import (
 	"github.com/lightninglabs/lightning-terminal/subservers"
 	grpcProxy "github.com/mwitkow/grpc-proxy/proxy"
 	"github.com/vanditshah99/lnd/lncfg"
-	"github.com/vanditshah99/lndditshah99/macaroons"
+	"github.com/vanditshah99/lnd/macaroons"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
