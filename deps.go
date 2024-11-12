@@ -10,5 +10,5 @@ import (
 	_ "github.com/lightninglabs/faraday/cmd/frcli"
 	_ "github.com/lightninglabs/loop/cmd/loop"
 	_ "github.com/lightninglabs/pool/cmd/pool"
-	_ "github.com/lightningnetwork/lnd/cmd/lncli"
+	_ "github.com/vanditshah99/lnd/cmd/lncli"
 )

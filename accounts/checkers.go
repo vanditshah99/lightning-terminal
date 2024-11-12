@@ -8,15 +8,15 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	mid "github.com/lightninglabs/lightning-terminal/rpcmiddleware"
 	"github.com/vanditshah99/lnd/lnrpc"
-	"github.com/vanditshah99/lndditshah99/lnrpc/routerrpc"
-	"github.com/vanditshah99/lndditshah99/lntypes"
-	"github.com/vanditshah99/lndditshah99/lnwire"
-	"github.com/vanditshah99/lndditshah99/zpay32"
+	"github.com/vanditshah99/lnd/lnrpc/routerrpc"
+	"github.com/vanditshah99/lnd/lntypes"
+	"github.com/vanditshah99/lnd/lnwire"
+	"github.com/vanditshah99/lnd/zpay32"
 	"google.golang.org/protobuf/proto"
 )
 
 var (
-	// DecodePayReqPassThrough is a pass-through checker that allows calls
+	// DecodePaysReqPassThrough is a pass-through checker that allows calls
 	// to DecodePayReq through unchanged.
 	DecodePayReqPassThrough = mid.NewPassThrough(
 		&lnrpc.PayReqString{}, &lnrpc.PayReq{},
